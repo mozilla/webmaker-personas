@@ -1,0 +1,28 @@
+{
+  "name": "makerstrap",
+  "author": "@k88hudson",
+  "version": "0.2.3",
+  "dependencies": {
+    "bootstrap": "3.1.1",
+    "selectize": "0.10.1"
+  },
+  "ignore": [
+    "bower_components/",
+    "node_modules/",
+    "demo/",
+    "Gruntfile.js",
+    "Procfile",
+    "package.json"
+  ],
+  "homepage": "https://github.com/mozilla/makerstrap",
+  "_release": "0.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.3",
+    "commit": "bb74d79c1311d72e0ff4f4c410d996c6fb5ae6d8"
+  },
+  "_source": "git://github.com/mozilla/makerstrap.git",
+  "_target": "~0.2.3",
+  "_originalSource": "makerstrap",
+  "_direct": true
+}

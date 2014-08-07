@@ -1,0 +1,48 @@
+{
+  "name": "webmaker-personas",
+  "version": "0.0.1",
+  "author": "Ricardo Vazquez",
+  "description": "UX Personas for Webmaker Project",
+  "private": true,
+  "contributors": [
+    {
+      "name": "Ricardo Vazquez",
+      "email": "ricardo@mozillafoundation.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozilla/webmaker-personas.git"
+  },
+  "devDependencies": {
+    "colors": "^0.6.2",
+    "connect": "^2.17.1",
+    "gulp": "^3.6.2",
+    "gulp-clean": "^0.3.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-if": "^1.2.1",
+    "gulp-imagemin": "^0.5.0",
+    "gulp-inject": "^0.4.1",
+    "gulp-jshint": "^1.8.4",
+    "gulp-karma": "0.0.4",
+    "gulp-less": "^1.3.3",
+    "gulp-livereload": "^1.5.0",
+    "gulp-minify-css": "^0.3.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-ruby-sass": "^0.5.0",
+    "gulp-uglify": "^0.3.0",
+    "gulp-util": "^2.2.14",
+    "imagemin-gifsicle": "^0.1.1",
+    "imagemin-jpegtran": "^0.1.0",
+    "imagemin-optipng": "^0.1.0",
+    "imagemin-pngquant": "^0.1.2",
+    "jshint-stylish": "^0.2.0",
+    "karma": "^0.12.16",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-cli": "0.0.4",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "open": "0.0.5",
+    "run-sequence": "^0.3.6"
+  }
+}
