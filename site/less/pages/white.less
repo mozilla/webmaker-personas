@@ -3,8 +3,17 @@
 
 .white-landing {
   color: @mozilla-charcoal;
-  padding-top: 1.6rem;
-
+  nav {
+    padding: 1rem 0;
+    background: @white;
+  }
+  .biopic {
+    background-image: url('/resources/img/hank.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70rem;
+  }
   header {
     margin-bottom: 3rem;
   }
@@ -172,6 +181,11 @@
     font-size: 1rem;
     @media screen and (min-width: @screen-sm-min) {
     text-align: right;
+    }
+  }
+  .persona {
+    img {
+      width: 100%;
     }
   }
 }
