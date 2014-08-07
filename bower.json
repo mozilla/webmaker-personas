@@ -1,0 +1,14 @@
+{
+  "name": "webmaker-landing-pages",
+  "dependencies": {
+    "jquery": "2.1.1",
+    "makerstrap": "~0.2.2",
+    "font-awesome": "4.1.0",
+    "makeapi-client": "~0.5.26",
+    "mustache": "~0.8.2",
+    "webmaker-analytics": "~0.1.0",
+    "masonry": "~3.1.5",
+    "imagesloaded": "~3.1.8"
+  },
+  "version": "0.0.1"
+}
