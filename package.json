@@ -1,7 +1,8 @@
 {
-  "name": "webmaker-snippet-landing-page",
+<<<<<<< HEAD
+  "name": "webmaker-personas",
   "version": "0.0.1",
-  "description": "Landing page for the Firefox snippet",
+  "description": "UX Personas for Webmaker Project",
   "scripts": {
     "build": "grunt build",
     "postinstall": "bower install",
@@ -9,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mozilla/webmaker-snippet-landing-page.git"
+    "url": "https://github.com/mozilla/webmaker-personas.git"
   },
   "author": "Mozilla Webmaker",
   "license": "MPL-2.0",
@@ -39,5 +40,3 @@
     "metalsmith-templates": "^0.5.1",
     "nunjucks": "^1.0.5",
     "time-grunt": "^0.3.2"
-  }
-}
