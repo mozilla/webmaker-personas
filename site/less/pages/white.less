@@ -80,6 +80,14 @@
     }
     .bag-item {
       margin: 3rem 0 0 0;
+      .icon {
+        position: relative;
+        top: 0px;
+        transition: top 0.3s ease-in;
+        &:hover {
+          top: -8px;
+        }
+      }
     }
   }
 
@@ -107,6 +115,18 @@
     }
     .icon-group {
       padding: 2rem 0;
+    }
+  }
+
+  footer {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    background-color: @brand-secondary;
+    color: @white;
+    p {
+      margin: 0;
+      font-size: 1.3rem;
+      font-weight: 400;
     }
   }
 
