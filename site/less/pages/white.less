@@ -35,12 +35,15 @@
   .wordmark {
     position: relative;
     padding: 1.5rem 0 2rem 1rem;
-    margin: 0 0 1px 0;
-    background-color: @lightgrey;
+    margin: 0 0 0.625em 0;
+    background-color: @orange;
+    color: white;
+    text-align: center;
     @media screen and (min-width: @screen-sm-min) {
       margin: 5rem 0;
-      background-color: rgba(0,0,0,0);
       padding: 0;
+      background-color: rgba(0,0,0,0);
+      text-align: left;
     }
     &:before {
       position: absolute;
@@ -64,19 +67,7 @@
       border-radius: 5px;
     }
   }
-  //move elsewhere
-  .append-top-5 {
-    padding: 1rem 0 0 0;
-    @media screen and (min-width: @screen-sm-min) {
-      padding: 5rem 0 0 0;
-    }
-  }
-  .append-top-8 {
-    padding-top: 3rem;
-    @media screen and (min-width: @screen-sm-min) {
-      padding-top: 8rem;
-    }
-  }
+
   .in-the-bag {
     padding: 2rem 1rem 4rem;
     background: @brand-primary;
@@ -106,7 +97,11 @@
 
   .events {
     padding: 1rem;
+    margin: 4rem 0 0 0;
     background-color: @lightgrey;
+    @media screen and (min-width: @screen-md-min) {
+      margin: 0;
+    }
     p {
       margin: 0;
     }
@@ -114,6 +109,22 @@
       padding: 2rem 0;
     }
   }
+
+  //move elsewhere
+  .append-top-5 {
+    padding-top: 1rem;
+    @media screen and (min-width: @screen-sm-min) {
+      padding-top: 5rem
+    }
+  }
+  .append-top-bottom-8 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    @media screen and (min-width: @screen-sm-min) {
+      padding-top: 8rem;
+    }
+  }
+  //
 
   header {
     margin-bottom: 3rem;
