@@ -1,29 +1,82 @@
 @import "../base/all";
 @import "../components/all";
 
-.white-landing {
+.persona-landing {
   color: @mozilla-charcoal;
   nav {
     padding: 1rem 0;
     background: @white;
   }
   .intro {
+    .fixed-image {
+      display: block;
+      max-width: 100%;
+      @media screen and (min-width: @screen-sm-min) {
+        display: none;
+      }
+    }
     .biopic {
-      background-image: url('/resources/img/hank.jpg');
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      height: 70rem;
-      h1 {
-        font-family: @secondary-font;
+       background-image: none;
+        @media screen and (min-width: @screen-sm-min) {
+          background-image: url('/resources/img/hank.jpg');
+          background-size: cover;
+          background-position: top center;
+          background-repeat: no-repeat;
+          height: 70rem;
+        }
+      .overlay {
+        color: @grey;
+        @media screen and (min-width: @screen-sm-min) {
+          color: @white;
+        }
       }
     }
   }
+  .wordmark {
+    position: relative;
+    margin: 5rem 0;
+    &:before {
+      position: absolute;
+      display: block;
+      content: '';
+      left: -124px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: @white;
+    }
+    &:after {
+      position: absolute;
+      display: block;
+      content: '';
+      top: 7px;
+      left: -110px;
+      width: 100px;
+      height: 3px;
+      background-color: @white;
+      border-radius: 5px;
+    }
+  }
+  //move elsewhere
+  .append-top-5 {
+    padding: 1rem 0 0 0;
+    @media screen and (min-width: @screen-sm-min) {
+      padding: 5rem 0 0 0;
+    }
+  }
+  .append-top-8 {
+    padding: 1rem 0 0 0;
+    @media screen and (min-width: @screen-sm-min) {
+      padding: 8rem 0 0 0;
+    }
+  }
+
   header {
     margin-bottom: 3rem;
   }
 
   p {
+    margin: 2rem 0 0 0;
     font-size: 1.75rem;
     font-weight: 300;
     line-height: 1.5;
@@ -33,9 +86,11 @@
   }
 
   h1 {
-    font-weight: 200;
-    font-size: 5.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: -5px;
+    font-family: @secondary-font;
+    font-weight: 700;
+    font-size: 8rem;
+    text-transform: uppercase;
   }
 
   ul {
