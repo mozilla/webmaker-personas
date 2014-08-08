@@ -1,24 +1,157 @@
 @import "../base/all";
 @import "../components/all";
 
-.white-landing {
+.persona-landing {
   color: @mozilla-charcoal;
   nav {
     padding: 1rem 0;
     background: @white;
   }
-  .biopic {
-    background-image: url('/resources/img/hank.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 70rem;
+  .intro {
+    .fixed-image {
+      display: block;
+      max-width: 100%;
+      @media screen and (min-width: @screen-sm-min) {
+        display: none;
+      }
+    }
+    .biopic {
+       background-image: none;
+        @media screen and (min-width: @screen-sm-min) {
+          background-image: url('/resources/img/hank.jpg');
+          background-size: cover;
+          background-position: top center;
+          background-repeat: no-repeat;
+          height: 70rem;
+        }
+      .overlay {
+        color: @grey;
+        @media screen and (min-width: @screen-sm-min) {
+          color: @white;
+        }
+      }
+    }
   }
+  .wordmark {
+    position: relative;
+    padding: 1.5rem 0 2rem 1rem;
+    margin: 0 0 0.625em 0;
+    background-color: @orange;
+    color: white;
+    text-align: center;
+    @media screen and (min-width: @screen-sm-min) {
+      margin: 5rem 0;
+      padding: 0;
+      background-color: rgba(0,0,0,0);
+      text-align: left;
+    }
+    &:before {
+      position: absolute;
+      display: block;
+      content: '';
+      left: -124px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: @white;
+    }
+    &:after {
+      position: absolute;
+      display: block;
+      content: '';
+      top: 7px;
+      left: -110px;
+      width: 100px;
+      height: 3px;
+      background-color: @white;
+      border-radius: 5px;
+    }
+  }
+
+  .in-the-bag {
+    padding: 2rem 1rem 4rem;
+    background: @brand-primary;
+    color: white;
+    h2 {
+      .secondary-headline();
+    }
+    p {
+      margin: 0;
+    }
+    .bag-item {
+      margin: 3rem 0 0 0;
+      .icon {
+        position: relative;
+        top: 0px;
+        transition: top 0.3s ease-in;
+        &:hover {
+          top: -8px;
+        }
+      }
+    }
+  }
+
+  .entry-point {
+    padding: 2rem 1rem 4rem;
+    h2 {
+      .secondary-headline();
+    }
+    .selected {
+      background-color: @brand-primary;
+      border-radius: 0.25em;
+      color: @white;
+    }
+  }
+
+  .events {
+    padding: 1rem;
+    margin: 4rem 0 0 0;
+    background-color: @lightgrey;
+    @media screen and (min-width: @screen-md-min) {
+      margin: 0;
+    }
+    p {
+      margin: 0;
+    }
+    .icon-group {
+      padding: 2rem 0;
+    }
+  }
+
+  footer {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    background-color: @brand-secondary;
+    color: @white;
+    p {
+      margin: 0;
+      font-size: 1.3rem;
+      font-weight: 400;
+    }
+  }
+
+  //move elsewhere
+  .append-top-5 {
+    padding-top: 1rem;
+    @media screen and (min-width: @screen-sm-min) {
+      padding-top: 5rem
+    }
+  }
+  .append-top-bottom-8 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    @media screen and (min-width: @screen-sm-min) {
+      padding-top: 8rem;
+    }
+  }
+  //
+
   header {
     margin-bottom: 3rem;
   }
 
   p {
+    margin: 2rem 0 0 0;
     font-size: 1.75rem;
     font-weight: 300;
     line-height: 1.5;
@@ -28,11 +161,20 @@
   }
 
   h1 {
-    font-weight: 200;
-    font-size: 5.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: -5px;
+    font-family: @secondary-font;
+    font-weight: 700;
+    font-size: 8rem;
+    text-transform: uppercase;
   }
 
+  h3{
+    font-family: @secondary-font;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 2rem;
+  }
   ul {
     list-style: none;
     padding-left: 0;
