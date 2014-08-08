@@ -77,6 +77,32 @@
       padding-top: 8rem;
     }
   }
+  .in-the-bag {
+    padding: 2rem 1rem 4rem;
+    background: @brand-primary;
+    color: white;
+    h2 {
+      .secondary-headline();
+    }
+    p {
+      margin: 0;
+    }
+    .bag-item {
+      margin: 3rem 0 0 0;
+    }
+  }
+
+  .entry-point {
+    padding: 2rem 1rem 4rem;
+    h2 {
+      .secondary-headline();
+    }
+    .selected {
+      background-color: @brand-primary;
+      border-radius: 0.25em;
+      color: @white;
+    }
+  }
 
   header {
     margin-bottom: 3rem;
@@ -100,11 +126,12 @@
     text-transform: uppercase;
   }
 
-  h4{
+  h3{
     font-family: @secondary-font;
     font-weight: 700;
     text-transform: uppercase;
     font-style: italic;
+    font-size: 2rem;
   }
   ul {
     list-style: none;
