@@ -34,7 +34,14 @@
   }
   .wordmark {
     position: relative;
-    margin: 5rem 0;
+    padding: 1.5rem 0 2rem 1rem;
+    margin: 0 0 1px 0;
+    background-color: @lightgrey;
+    @media screen and (min-width: @screen-sm-min) {
+      margin: 5rem 0;
+      background-color: rgba(0,0,0,0);
+      padding: 0;
+    }
     &:before {
       position: absolute;
       display: block;
@@ -65,9 +72,9 @@
     }
   }
   .append-top-8 {
-    padding: 1rem 0 0 0;
+    padding-top: 3rem;
     @media screen and (min-width: @screen-sm-min) {
-      padding: 8rem 0 0 0;
+      padding-top: 8rem;
     }
   }
 
@@ -93,6 +100,12 @@
     text-transform: uppercase;
   }
 
+  h4{
+    font-family: @secondary-font;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+  }
   ul {
     list-style: none;
     padding-left: 0;
