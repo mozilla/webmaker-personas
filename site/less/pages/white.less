@@ -18,7 +18,12 @@
     .biopic {
        background-image: none;
         @media screen and (min-width: @screen-sm-min) {
-          background-image: url('/resources/img/hank.jpg');
+          &.hank {
+            background-image: url('/resources/img/hank.jpg');
+          }
+          &.alyssa {
+            background-image: url('/resources/img/alyssa.jpg');
+          }
           background-size: cover;
           background-position: top center;
           background-repeat: no-repeat;
@@ -37,8 +42,10 @@
     padding: 1.5rem 0 2rem 1rem;
     margin: 0 0 0.625em 0;
     background-color: @orange;
-    color: white;
     text-align: center;
+    &.overlay {
+      color: white;
+    }
     @media screen and (min-width: @screen-sm-min) {
       margin: 5rem 0;
       padding: 0;
@@ -70,8 +77,13 @@
 
   .in-the-bag {
     padding: 2rem 1rem 4rem;
-    background: @brand-primary;
     color: white;
+    &.hank {
+      background-color: @brand-primary;
+    }
+    &.alyssa {
+      background-color: @brand-info;
+    }
     h2 {
       .secondary-headline();
     }
@@ -97,7 +109,12 @@
       .secondary-headline();
     }
     .selected {
-      background-color: @brand-primary;
+      &.hank {
+        background-color: @brand-primary;
+      }
+      &.alyssa {
+        background-color: @brand-info;
+      }
       border-radius: 0.25em;
       color: @white;
     }
