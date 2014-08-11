@@ -3,11 +3,12 @@
 
 @hank-color: @brand-primary;
 @alyssa-color: @literacy-color-web-mechanics;
+@jeremy-color: @literacy-color-remixing;
 
 .persona-landing {
   color: @mozilla-charcoal;
   nav {
-    padding: 1rem 0;
+    padding: 1rem 0 0 0;
     background: @white;
   }
   .intro {
@@ -26,6 +27,9 @@
           }
           &.alyssa {
             background-image: url('/resources/img/alyssa.jpg');
+          }
+          &.jeremy {
+            background-image: url('/resources/img/jeremy.jpg');
           }
           background-size: cover;
           background-position: top center;
@@ -51,6 +55,9 @@
     }
     &.alyssa {
       background-color: @alyssa-color;
+    }
+    &.alyssa {
+      background-color: @jeremy-color;
     }
     @media screen and (min-width: @screen-sm-min) {
       margin: 5rem 0;
@@ -93,6 +100,9 @@
     &.alyssa {
       background-color: @alyssa-color;
     }
+    &.jeremy {
+      background-color: @jeremy-color;
+    }
     h2 {
       .secondary-headline();
     }
@@ -123,6 +133,9 @@
       }
       &.alyssa {
         background-color: @alyssa-color;
+      }
+      &.jeremy {
+        background-color: @jeremy-color;
       }
       border-radius: 0.25em;
       color: @white;
