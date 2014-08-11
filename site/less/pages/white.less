@@ -7,6 +7,7 @@
 @michel-color: @lightnavy;
 
 .persona-landing {
+  position: relative;
   color: @mozilla-charcoal;
   nav {
     padding: 1rem 0 0 0;
@@ -23,6 +24,9 @@
     .biopic {
        background-image: none;
         @media screen and (min-width: @screen-sm-min) {
+          &.intro {
+            background-image: url('/resources/img/intro-dark.jpg');
+          }
           &.hank {
             background-image: url('/resources/img/hank.jpg');
           }
@@ -45,6 +49,15 @@
         @media screen and (min-width: @screen-sm-min) {
           color: @white;
         }
+      }
+      button {
+        padding: 1rem 0;
+        margin: 3rem 0;
+      }
+    }
+    p {
+      @media screen and (min-width: @screen-sm-min){
+        font-size: 2rem;
       }
     }
   }
@@ -170,6 +183,18 @@
     }
   }
 
+  .persona-collection {
+    .btn {
+      margin: 4rem 0;
+      a:link, a:visited {
+        color: inherit;
+      }
+    }
+    img {
+      max-width: 80%;
+    }
+  }
+
   footer {
     padding: 1.5rem;
     margin-top: 2rem;
@@ -187,6 +212,12 @@
     padding-top: 1rem;
     @media screen and (min-width: @screen-sm-min) {
       padding-top: 5rem
+    }
+  }
+  .append-top-15 {
+    padding-top: 1rem;
+    @media screen and (min-width: @screen-sm-min) {
+      padding-top: 15rem
     }
   }
   .append-top-bottom-8 {
@@ -207,8 +238,8 @@
     font-size: 1.75rem;
     font-weight: 300;
     line-height: 1.5;
-    @media screen and (min-width: @screen-sm-min){
-      font-size: 2rem;
+    &.heavy {
+      font-weight: 400;
     }
   }
 
