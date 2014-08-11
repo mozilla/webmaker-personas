@@ -4,6 +4,7 @@
 @hank-color: @brand-primary;
 @alyssa-color: @literacy-color-web-mechanics;
 @jeremy-color: @literacy-color-remixing;
+@michel-color: @lightnavy;
 
 .persona-landing {
   color: @mozilla-charcoal;
@@ -31,6 +32,9 @@
           &.jeremy {
             background-image: url('/resources/img/jeremy.jpg');
           }
+          &.michel {
+            background-image: url('/resources/img/michel.jpg');
+          }
           background-size: cover;
           background-position: top center;
           background-repeat: no-repeat;
@@ -56,15 +60,18 @@
     &.alyssa {
       background-color: @alyssa-color;
     }
-    &.alyssa {
+    &.jeremy {
       background-color: @jeremy-color;
+    }
+    &.michel {
+      background-color: @michel-color;
     }
     @media screen and (min-width: @screen-sm-min) {
       margin: 5rem 0;
       padding: 0;
       background-color: rgba(0,0,0,0);
       text-align: left;
-      &.alyssa, &.hank {
+      &.alyssa, &.hank, &.jeremy, &.michel {
         background-color: rgba(0,0,0,0);
       }
     }
@@ -103,6 +110,9 @@
     &.jeremy {
       background-color: @jeremy-color;
     }
+    &.michel {
+      background-color: @michel-color;
+    }
     h2 {
       .secondary-headline();
     }
@@ -136,6 +146,9 @@
       }
       &.jeremy {
         background-color: @jeremy-color;
+      }
+      &.michel {
+        background-color: @michel-color;
       }
       border-radius: 0.25em;
       color: @white;
