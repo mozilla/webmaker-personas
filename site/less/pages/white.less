@@ -1,6 +1,9 @@
 @import "../base/all";
 @import "../components/all";
 
+@hank-color: @brand-primary;
+@alyssa-color: @literacy-color-web-mechanics;
+
 .persona-landing {
   color: @mozilla-charcoal;
   nav {
@@ -18,7 +21,12 @@
     .biopic {
        background-image: none;
         @media screen and (min-width: @screen-sm-min) {
-          background-image: url('/resources/img/hank.jpg');
+          &.hank {
+            background-image: url('/resources/img/hank.jpg');
+          }
+          &.alyssa {
+            background-image: url('/resources/img/alyssa.jpg');
+          }
           background-size: cover;
           background-position: top center;
           background-repeat: no-repeat;
@@ -36,14 +44,22 @@
     position: relative;
     padding: 1.5rem 0 2rem 1rem;
     margin: 0 0 0.625em 0;
-    background-color: @orange;
-    color: white;
     text-align: center;
+    color: @white;
+    &.hank {
+      background-color: @hank-color;
+    }
+    &.alyssa {
+      background-color: @alyssa-color;
+    }
     @media screen and (min-width: @screen-sm-min) {
       margin: 5rem 0;
       padding: 0;
       background-color: rgba(0,0,0,0);
       text-align: left;
+      &.alyssa, &.hank {
+        background-color: rgba(0,0,0,0);
+      }
     }
     &:before {
       position: absolute;
@@ -70,8 +86,13 @@
 
   .in-the-bag {
     padding: 2rem 1rem 4rem;
-    background: @brand-primary;
     color: white;
+    &.hank {
+      background-color: @hank-color;
+    }
+    &.alyssa {
+      background-color: @alyssa-color;
+    }
     h2 {
       .secondary-headline();
     }
@@ -97,7 +118,12 @@
       .secondary-headline();
     }
     .selected {
-      background-color: @brand-primary;
+      &.hank {
+        background-color: @hank-color;
+      }
+      &.alyssa {
+        background-color: @alyssa-color;
+      }
       border-radius: 0.25em;
       color: @white;
     }
