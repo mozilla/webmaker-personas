@@ -44,16 +44,22 @@
     position: relative;
     padding: 1.5rem 0 2rem 1rem;
     margin: 0 0 0.625em 0;
-    background-color: @orange;
     text-align: center;
-    &.overlay {
-      color: white;
+    color: @white;
+    &.hank {
+      background-color: @hank-color;
+    }
+    &.alyssa {
+      background-color: @alyssa-color;
     }
     @media screen and (min-width: @screen-sm-min) {
       margin: 5rem 0;
       padding: 0;
       background-color: rgba(0,0,0,0);
       text-align: left;
+      &.alyssa, &.hank {
+        background-color: rgba(0,0,0,0);
+      }
     }
     &:before {
       position: absolute;
