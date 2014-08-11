@@ -1,6 +1,9 @@
 @import "../base/all";
 @import "../components/all";
 
+@hank-color: @brand-primary;
+@alyssa-color: @literacy-color-web-mechanics;
+
 .persona-landing {
   color: @mozilla-charcoal;
   nav {
@@ -79,10 +82,10 @@
     padding: 2rem 1rem 4rem;
     color: white;
     &.hank {
-      background-color: @brand-primary;
+      background-color: @hank-color;
     }
     &.alyssa {
-      background-color: @brand-info;
+      background-color: @alyssa-color;
     }
     h2 {
       .secondary-headline();
@@ -110,10 +113,10 @@
     }
     .selected {
       &.hank {
-        background-color: @brand-primary;
+        background-color: @hank-color;
       }
       &.alyssa {
-        background-color: @brand-info;
+        background-color: @alyssa-color;
       }
       border-radius: 0.25em;
       color: @white;
