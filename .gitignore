@@ -4,3 +4,4 @@
 build/
 /site/resources/compiled/
 .server/
+site/resources/img/.DS_Store
