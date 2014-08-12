@@ -10,8 +10,7 @@
   position: relative;
   color: @mozilla-charcoal;
   nav {
-    padding: 1rem 0 0 0;
-    background: @white;
+    padding: .3125rem 0;
   }
   .intro {
     .fixed-image {
@@ -25,7 +24,7 @@
        background-image: none;
         @media screen and (min-width: @screen-sm-min) {
           &.intro {
-            background-image: url('/resources/img/intro-dark.jpg');
+            background-image: url('/resources/img/intro-dark-2.jpg');
           }
           &.hank {
             background-image: url('/resources/img/hank.jpg');
@@ -42,7 +41,7 @@
           background-size: cover;
           background-position: top center;
           background-repeat: no-repeat;
-          height: 70rem;
+          height: 60rem;
         }
       .overlay {
         color: @grey;
@@ -54,6 +53,9 @@
         padding: 1rem 5rem;
         margin: 3rem 0;
       }
+    }
+    h1 {
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     }
     p {
       @media screen and (min-width: @screen-sm-min){
@@ -193,6 +195,9 @@
     img {
       max-width: 80%;
     }
+    i {
+      padding: 0 0 0 8px;
+    }
   }
 
   footer {
@@ -204,6 +209,7 @@
       margin: 0;
       font-size: 1.3rem;
       font-weight: 400;
+      text-align: center;
     }
   }
 
@@ -212,6 +218,12 @@
     padding-top: 1rem;
     @media screen and (min-width: @screen-sm-min) {
       padding-top: 5rem
+    }
+  }
+  .append-top-10 {
+    padding-top: 1rem;
+    @media screen and (min-width: @screen-sm-min) {
+      padding-top: 10rem
     }
   }
   .append-top-15 {
@@ -263,9 +275,9 @@
     padding-left: 0;
   }
 
-  li {
-    margin-bottom: 2rem;
-  }
+  // li {
+  //   margin-bottom: 2rem;
+  // }
 
   fieldset {
     margin-bottom: 1.6rem;
