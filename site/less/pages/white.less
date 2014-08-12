@@ -259,8 +259,11 @@
     margin-bottom: -5px;
     font-family: @secondary-font;
     font-weight: 700;
-    font-size: 8rem;
+    font-size: 4rem;
     text-transform: uppercase;
+    @media screen and (min-width: @screen-xs-min) {
+      font-size: 8rem;
+    }
   }
 
   h3{
