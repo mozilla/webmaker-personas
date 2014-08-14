@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="55px" viewBox="0 0 28 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>flipphone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="512" sketch:type="MSArtboardGroup" transform="translate(-139.000000, -283.000000)" fill="#FFFFFF">
+            <g id="Deepa" sketch:type="MSLayerGroup" transform="translate(13.000000, 283.000000)">
+                <g id="flipphone" transform="translate(126.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M22.34115,5.98325243 L3.375,5.98325243 C1.51092,5.98325243 0,7.47746359 0,9.32063107 L0,51.6364563 C0,53.4796238 1.51092,54.973835 3.375,54.973835 L23.69115,54.973835 C25.555095,54.973835 27.06615,53.4796238 27.06615,51.6364563 L27.06615,0 L22.34115,0 L22.34115,5.98325243 Z M22.443075,30.6152427 L4.623075,30.6152427 L4.623075,12.7154126 L22.443075,12.7154126 L22.443075,30.6152427 L22.443075,30.6152427 Z" id="mobile-phone-3-icon"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

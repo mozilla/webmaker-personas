@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="48px" viewBox="0 0 40 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>businesscards</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="512" sketch:type="MSArtboardGroup" transform="translate(-12.000000, -292.000000)" fill="#FFFFFF">
+            <g id="Deepa" sketch:type="MSLayerGroup" transform="translate(13.000000, 283.000000)">
+                <g id="businesscards" transform="translate(0.000000, 9.000000)" sketch:type="MSShapeGroup">
+                    <path d="M33.304,9.124 L34.079,4.242 L31.436,3.822 L31.498,2.881 L28.057,2.653 L28.057,2.532 L26.235,2.532 L21.245,2.202 L8.895,0.24 L8.715,1.373 L6.054,1.197 L5.966,2.531 L2.558,2.531 L2.558,31.595 L-0.124,38.37 L2.558,39.432 L2.558,42.03 L9.121,42.03 L23.585,47.756 L23.954,46.826 L25.518,42.874 L27.883,43.249 L28.04,42.261 L28.044,42.236 L28.893,42.292 L28.959,41.293 L29.505,33.039 L29.567,32.646 L38.125,11.028 L33.304,9.124 L33.304,9.124 Z M4.558,4.533 L26.058,4.533 L26.058,40.033 L4.558,40.033 L4.558,4.533 L4.558,4.533 Z" id="Shape"></path>
+                    <rect id="Rectangle-path" x="13" y="26" width="1" height="11.519"></rect>
+                    <rect id="Rectangle-path" x="19" y="7" width="1" height="30.388"></rect>
+                    <rect id="Rectangle-path" x="21" y="7" width="1" height="30.388"></rect>
+                    <path d="M8.375,35.513 L8.712,35.578 L8.712,35.157 L8.293,35.235 C8.008,35.287 7.703,35.33 7.379,35.363 C7.537,35.379 7.697,35.399 7.859,35.425 C8.021,35.45 8.193,35.479 8.375,35.513 L8.375,35.513 Z" id="Shape"></path>
+                    <path d="M6.274,34.125 L6.274,36.598 L8.416,37.835 L10.558,36.598 L10.558,34.125 L8.416,32.888 L6.274,34.125 L6.274,34.125 Z M9.5,35.007 L8.987,35.106 L8.987,35.627 L9.5,35.728 L9.5,36.069 L6.87,35.496 L6.87,35.22 L9.5,34.656 L9.5,35.007 L9.5,35.007 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

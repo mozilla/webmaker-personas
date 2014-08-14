@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="60px" viewBox="0 0 20 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>lipstick</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="512" sketch:type="MSArtboardGroup" transform="translate(-264.000000, -144.000000)" fill="#FFFFFF">
+            <g id="Colene" sketch:type="MSLayerGroup" transform="translate(13.000000, 145.000000)">
+                <g id="lipstick" transform="translate(251.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M20,56.667 L20,36.333 C20,35.228 19.248,34.333 18.32,34.333 L18.25,34.333 L18.25,16.934 L16.522,16.934 C16.527,14.06 16.548,11.666 16.565,9.683 C16.626,2.638 16.64,0.964 15.794,0.11 C15.506,-0.181 15.133,-0.334 14.715,-0.334 C14.152,-0.334 13.606,-0.055 12.914,0.298 C12.304,0.61 11.544,0.998 10.591,1.294 C4.416,3.212 3.682,8.402 3.654,8.622 L3.647,16.934 L1.984,16.934 L1.984,34.333 L1.914,34.333 C0.986,34.333 0.234,35.228 0.234,36.333 L0.234,56.666 C0.234,57.771 0.986,58.666 1.914,58.666 L18.32,58.666 C19.248,58.667 20,57.771 20,56.667 L20,56.667 Z M16.25,34.333 L3.984,34.333 L3.984,19.118 L16.25,19.259 L16.25,34.333 L16.25,34.333 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

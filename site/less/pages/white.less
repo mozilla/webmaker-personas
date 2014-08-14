@@ -2,9 +2,13 @@
 @import "../components/all";
 
 @tomas-color: @brand-primary;
-@alyssa-color: @literacy-color-web-mechanics;
-@jeremy-color: @literacy-color-remixing;
-@michel-color: @lightnavy;
+@deepa-color: @literacy-color-web-mechanics;
+@daniel-color: @literacy-color-remixing;
+@alice-color: @lightnavy;
+@john-color: @literacy-color-open-practices;
+@phil-color: @literacy-color-collaborating;
+@colene-color: @literacy-color-search;
+@maria-color: @literacy-color-infrastructure;
 
 .persona-landing {
   position: relative;
@@ -21,18 +25,31 @@
        background-image: none;
         @media screen and (min-width: @screen-sm-min) {
           &.intro {
-            background-image: url('/resources/img/intro-dark-4.jpg');
+            background-color: @brand-secondary;
+            height: 55rem;
           }
           &.tomas {
             background-image: url('/resources/img/hank.jpg');
           }
-          &.alyssa {
+          &.deepa {
             background-image: url('/resources/img/alyssa.jpg');
           }
-          &.jeremy {
+          &.daniel {
             background-image: url('/resources/img/jeremy.jpg');
           }
-          &.michel {
+          &.alice {
+            background-image: url('/resources/img/michel.jpg');
+          }
+          &.john {
+            background-image: url('/resources/img/michel.jpg');
+          }
+          &.phil {
+            background-image: url('/resources/img/michel.jpg');
+          }
+          &.colene {
+            background-image: url('/resources/img/michel.jpg');
+          }
+          &.maria {
             background-image: url('/resources/img/michel.jpg');
           }
           background-size: cover;
@@ -56,7 +73,7 @@
     }
     p {
       @media screen and (min-width: @screen-sm-min){
-        font-size: 2rem;
+        font-size: 1.7rem;
       }
     }
   }
@@ -69,21 +86,33 @@
     &.tomas {
       background-color: @tomas-color;
     }
-    &.alyssa {
-      background-color: @alyssa-color;
+    &.deepa {
+      background-color: @deepa-color;
     }
-    &.jeremy {
-      background-color: @jeremy-color;
+    &.daniel {
+      background-color: @daniel-color;
     }
-    &.michel {
-      background-color: @michel-color;
+    &.alice {
+      background-color: @alice-color;
+    }
+    &.john {
+      background-color: @john-color;
+    }
+    &.phil {
+      background-color: @phil-color;
+    }
+    &.colene {
+      background-color: @colene-color;
+    }
+    &.maria {
+      background-color: @maria-color;
     }
     @media screen and (min-width: @screen-sm-min) {
       margin: 5rem 0;
       padding: 0;
       background-color: rgba(0,0,0,0);
       text-align: left;
-      &.alyssa, &.tomas, &.jeremy, &.michel {
+      &.deepa, &.tomas, &.daniel, &.alice, &.john, &.phil, &.colene, &.maria {
         background-color: rgba(0,0,0,0);
       }
       h3 {
@@ -119,14 +148,26 @@
     &.tomas {
       background-color: @tomas-color;
     }
-    &.alyssa {
-      background-color: @alyssa-color;
+    &.deepa {
+      background-color: @deepa-color;
     }
-    &.jeremy {
-      background-color: @jeremy-color;
+    &.daniel {
+      background-color: @daniel-color;
     }
-    &.michel {
-      background-color: @michel-color;
+    &.alice {
+      background-color: @alice-color;
+    }
+    &.john {
+      background-color: @john-color;
+    }
+    &.phil {
+      background-color: @phil-color;
+    }
+    &.colene {
+      background-color: @colene-color;
+    }
+    &.maria {
+      background-color: @maria-color;
     }
     h2 {
       .secondary-headline();
@@ -148,6 +189,7 @@
     .icn {
       height: 80px;
       max-height: 80px;
+      max-width: 80px;
     }
   }
 
@@ -160,14 +202,26 @@
       &.tomas {
         background-color: @tomas-color;
       }
-      &.alyssa {
-        background-color: @alyssa-color;
+      &.deepa {
+        background-color: @deepa-color;
       }
-      &.jeremy {
-        background-color: @jeremy-color;
+      &.daniel {
+        background-color: @daniel-color;
       }
-      &.michel {
-        background-color: @michel-color;
+      &.alice {
+        background-color: @alice-color;
+      }
+      &.john {
+        background-color: @john-color;
+      }
+      &.phil {
+        background-color: @phil-color;
+      }
+      &.colene {
+        background-color: @colene-color;
+      }
+      &.maria {
+        background-color: @maria-color;
       }
       border-radius: 0.25em;
       color: @white;
@@ -256,6 +310,9 @@
     line-height: 1.5;
     &.heavy {
       font-weight: 400;
+    }
+    &.desc {
+      min-height: 240px;
     }
   }
 
