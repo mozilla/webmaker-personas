@@ -8,6 +8,7 @@
 @john-color: @literacy-color-open-practices;
 @phil-color: @literacy-color-collaborating;
 @colene-color: @literacy-color-navigation;
+@maria-color: @literacy-color-infrastructure;
 
 .persona-landing {
   position: relative;
@@ -45,6 +46,9 @@
             background-image: url('/resources/img/michel.jpg');
           }
           &.colene {
+            background-image: url('/resources/img/michel.jpg');
+          }
+          &.maria {
             background-image: url('/resources/img/michel.jpg');
           }
           background-size: cover;
@@ -99,12 +103,15 @@
     &.colene {
       background-color: @colene-color;
     }
+    &.maria {
+      background-color: @maria-color;
+    }
     @media screen and (min-width: @screen-sm-min) {
       margin: 5rem 0;
       padding: 0;
       background-color: rgba(0,0,0,0);
       text-align: left;
-      &.deepa, &.tomas, &.daniel, &.alice, &.john, &.phil, &.colene {
+      &.deepa, &.tomas, &.daniel, &.alice, &.john, &.phil, &.colene, &.maria {
         background-color: rgba(0,0,0,0);
       }
       h3 {
@@ -158,6 +165,9 @@
     &.colene {
       background-color: @colene-color;
     }
+    &.maria {
+      background-color: @maria-color;
+    }
     h2 {
       .secondary-headline();
     }
@@ -208,6 +218,9 @@
       }
       &.colene {
         background-color: @colene-color;
+      }
+      &.maria {
+        background-color: @maria-color;
       }
       border-radius: 0.25em;
       color: @white;
