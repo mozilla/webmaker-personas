@@ -7,6 +7,7 @@
 @alice-color: @lightnavy;
 @john-color: @literacy-color-open-practices;
 @phil-color: @literacy-color-collaborating;
+@colene-color: @literacy-color-navigation;
 
 .persona-landing {
   position: relative;
@@ -41,6 +42,9 @@
             background-image: url('/resources/img/michel.jpg');
           }
           &.phil {
+            background-image: url('/resources/img/michel.jpg');
+          }
+          &.colene {
             background-image: url('/resources/img/michel.jpg');
           }
           background-size: cover;
@@ -92,12 +96,15 @@
     &.phil {
       background-color: @phil-color;
     }
+    &.colene {
+      background-color: @colene-color;
+    }
     @media screen and (min-width: @screen-sm-min) {
       margin: 5rem 0;
       padding: 0;
       background-color: rgba(0,0,0,0);
       text-align: left;
-      &.deepa, &.tomas, &.daniel, &.alice, &.john, &.phil {
+      &.deepa, &.tomas, &.daniel, &.alice, &.john, &.phil, &.colene {
         background-color: rgba(0,0,0,0);
       }
       h3 {
@@ -148,6 +155,9 @@
     &.phil {
       background-color: @phil-color;
     }
+    &.colene {
+      background-color: @colene-color;
+    }
     h2 {
       .secondary-headline();
     }
@@ -195,6 +205,9 @@
       }
       &.phil {
         background-color: @phil-color;
+      }
+      &.colene {
+        background-color: @colene-color;
       }
       border-radius: 0.25em;
       color: @white;
