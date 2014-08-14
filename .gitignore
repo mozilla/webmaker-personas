@@ -6,3 +6,4 @@ build/
 .server/
 site/resources/img/.DS_Store
 site/.DS_Store
+site/resources/img/icons/.DS_Store
