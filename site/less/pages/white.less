@@ -5,6 +5,7 @@
 @deepa-color: @literacy-color-web-mechanics;
 @daniel-color: @literacy-color-remixing;
 @alice-color: @lightnavy;
+@john-color: @literacy-color-open-practices;
 
 .persona-landing {
   position: relative;
@@ -33,6 +34,9 @@
             background-image: url('/resources/img/jeremy.jpg');
           }
           &.alice {
+            background-image: url('/resources/img/michel.jpg');
+          }
+          &.john {
             background-image: url('/resources/img/michel.jpg');
           }
           background-size: cover;
@@ -78,12 +82,15 @@
     &.alice {
       background-color: @alice-color;
     }
+    &.john {
+      background-color: @john-color;
+    }
     @media screen and (min-width: @screen-sm-min) {
       margin: 5rem 0;
       padding: 0;
       background-color: rgba(0,0,0,0);
       text-align: left;
-      &.deepa, &.tomas, &.daniel, &.alice {
+      &.deepa, &.tomas, &.daniel, &.alice, &.john {
         background-color: rgba(0,0,0,0);
       }
       h3 {
@@ -128,6 +135,9 @@
     &.alice {
       background-color: @alice-color;
     }
+    &.john {
+      background-color: @john-color;
+    }
     h2 {
       .secondary-headline();
     }
@@ -168,6 +178,9 @@
       }
       &.alice {
         background-color: @alice-color;
+      }
+      &.john {
+        background-color: @john-color;
       }
       border-radius: 0.25em;
       color: @white;
