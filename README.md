@@ -1,4 +1,4 @@
-### Webmaker Personas
+# Webmaker Personas
 
 UX Personas for the Webmaker Project.
 

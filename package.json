@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "webmaker-personas",
   "version": "0.0.1",
   "description": "UX Personas for Webmaker Project",
@@ -40,3 +39,5 @@
     "metalsmith-templates": "^0.5.1",
     "nunjucks": "^1.0.5",
     "time-grunt": "^0.3.2"
+  }
+}
