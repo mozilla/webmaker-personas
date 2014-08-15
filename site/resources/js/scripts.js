@@ -1,15 +1,11 @@
-$(document).ready(function() {
-  console.log("We are Mozilla Webmaker.");
+/* global $ */
+
+$(document).ready(function () {
   $('.dropdown-toggle').dropdown();
 
-  $(window).scroll(function() {
-    showSteps();
+  $(window).scroll(function () {
+    $('.anm-step').each(function (i) {
+      $(this).delay((i++) * 1000).fadeTo(1000, 1);
+    });
   });
-
 });
-
-function showSteps(){
-  $('.anm-step').each(function(i) {
-    $(this).delay((i++) * 1000).fadeTo(1000, 1);
-  });
-}
