@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="38px" height="42px" viewBox="0 0 38 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>chapstick</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="512" sketch:type="MSArtboardGroup" transform="translate(-449.000000, -158.000000)" fill="#FFFFFF">
+            <g id="chapstick" sketch:type="MSLayerGroup" transform="translate(450.000000, 158.000000)">
+                <path d="M2.83726349,11.1759629 C2.24592493,10.4690929 1.54564225,9.55902948 1.19043375,9.14909555 C0.641659403,8.5156995 -0.414338501,7.12222818 -0.217732365,6.09460642 C0.0488006954,4.70113509 1.68904312,3.30056974 2.75264178,2.47715486 C3.98396371,1.5245272 7.14435667,-1.15448476 9.40988768,1.11155297 C9.9490344,1.65069969 11.7210232,3.97095612 12.1968303,4.57445588 C13.2046901,5.85290248 15.0263372,8.27956945 15.0263372,8.27956945 L6.15727226,14.9910341 C6.15727226,14.9910341 4.52311043,13.1906691 2.83726349,11.1759629 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M6.34551258,15.5502603 L26.2412428,39.8807763 L34.5508923,33.0091892 L15.2145775,8.83879573" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M27.1209032,40.540015 L28.1997034,41.8579855 C28.1997034,41.8579855 28.0801182,42.5775234 32.6339825,38.6616156 L36.3097065,35.7054295 C36.3097065,35.7054295 37.0687683,35.1465209 35.4310595,33.6679211 L27.1209032,40.540015 L27.1209032,40.540015 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

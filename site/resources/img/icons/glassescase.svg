@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="98px" height="55px" viewBox="0 0 98 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>glassescase</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="512" sketch:type="MSArtboardGroup" transform="translate(-374.000000, -298.000000)">
+            <g id="glassescase" sketch:type="MSLayerGroup" transform="translate(374.000000, 298.000000)">
+                <path d="M18.3425234,14.5176028 L23.209722,16.6625491 L1.581,29.937 L2.256,31.66 L77.659,49.971 L83.974,48.577 L94.312,28.736 L95.537,28.986 L84.754,49.597 L77.645,51.165 L1.395,32.648 L0.161,29.509 L0.648,33.31 L1.877,36.446 L78.126,54.964 L85.235,53.396 L96.032,32.758 L96.033,28.939 L97.953,24.415 C97.953,24.415 91.603,17.489 89.607,15.21 C88.56,14.016 87.276,13.239 86.262,12.761 C85.236,12.276 84.456,12.088 84.456,12.088 L12.567,0.567 C9.405,0.057 8.743,0.242 8.743,0.242 L3.146,2.394 L1.923,7.519 L14.6806857,13.1820412 C16.3164444,13.8216874 17.4940915,14.24524 18.3425234,14.5176028 Z M85.1497068,16.4646329 L5.45883527,3.80832396 C4.94597223,3.72728997 5.06865711,2.96096852 5.58152015,3.04200251 C5.58152015,3.04200251 85.6625698,16.5456669 85.1497068,16.4646329 Z" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M22.77566,22.8753213 C22.77566,22.8753213 37.5881742,22.901357 45.8323362,22.9157729 C46.1384347,22.9163082 46.4353726,22.9168274 46.7220474,22.9173287 C62.5192184,22.944952 94.6448387,23.2993792 94.6448387,23.2993792 L94.9397148,22.4311513 L22.77566,22.8753213 Z" id="Rectangle-1" fill="#09B773" sketch:type="MSShapeGroup" transform="translate(59.000000, 22.500000) rotate(-350.000000) translate(-59.000000, -22.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
