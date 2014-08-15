@@ -242,36 +242,11 @@
 
   .entry-point {
     padding: 2rem 1rem 4rem;
+    .anm-step {
+      opacity: 0;
+    }
     h2 {
       .secondary-headline();
-    }
-    .selected {
-      &.tomas {
-        background-color: @tomas-color;
-      }
-      &.deepa {
-        background-color: @deepa-color;
-      }
-      &.daniel {
-        background-color: @daniel-color;
-      }
-      &.alice {
-        background-color: @alice-color;
-      }
-      &.john {
-        background-color: @john-color;
-      }
-      &.phil {
-        background-color: @phil-color;
-      }
-      &.colene {
-        background-color: @colene-color;
-      }
-      &.maria {
-        background-color: @maria-color;
-      }
-      border-radius: 0.25em;
-      color: @white;
     }
   }
 
@@ -319,6 +294,12 @@
   }
 
   //move elsewhere
+  .append-top-4 {
+    padding-top: 1rem;
+    @media screen and (min-width: @screen-sm-min) {
+      padding-top: 4rem
+    }
+  }
   .append-top-5 {
     padding-top: 1rem;
     @media screen and (min-width: @screen-sm-min) {
@@ -547,5 +528,32 @@
     img {
       width: 100%;
     }
+  }
+}
+
+.step {
+  &.tomas {
+    fill: @tomas-color;
+  }
+  &.deepa {
+    fill: @deepa-color;
+  }
+  &.daniel {
+    fill: @daniel-color;
+  }
+  &.alice {
+    fill: @alice-color;
+  }
+  &.john {
+    fill: @john-color;
+  }
+  &.phil {
+    fill: @phil-color;
+  }
+  &.colene {
+    fill: @colene-color;
+  }
+  &.maria {
+    fill: @maria-color;
   }
 }
