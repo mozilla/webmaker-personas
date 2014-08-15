@@ -9,7 +9,7 @@ $(document).ready(function() {
 });
 
 function showSteps(){
-  $('.step').each(function(i) {
-    $(this).delay((i++) * 650).fadeTo(1000, 1);
+  $('.anm-step').each(function(i) {
+    $(this).delay((i++) * 1000).fadeTo(1000, 1);
   });
 }
