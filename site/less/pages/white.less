@@ -16,7 +16,10 @@
   .intro {
     .fixed-image {
       display: block;
-      max-width: 100%;
+      position: relative;
+      img {
+        max-width: 100%;
+      }
       @media screen and (min-width: @screen-sm-min) {
         display: none;
       }
@@ -93,6 +96,9 @@
     &:hover {
       opacity: 0.5;
     }
+    @media screen and (max-width: @screen-sm-min){
+      font-size: 1.7rem;
+    }
     &.right {
       left: auto;
       right: 0px;
@@ -103,7 +109,12 @@
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0px, transparent 100%);
       background-repeat: repeat-x;
     }
-    .icon-next {
+    &.lg {
+      @media screen and (max-width: @screen-sm-min) {
+        display: none;
+      }
+    }
+    .icon-next, .icon-prev {
       right: 20%;
       width: 30px;
       height: 30px;
