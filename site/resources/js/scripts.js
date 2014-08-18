@@ -5,7 +5,7 @@ $(document).ready(function () {
 
   $(window).scroll(function () {
     $('.anm-step').each(function (i) {
-      $(this).delay((i++) * 1000).fadeTo(1000, 1);
+      $(this).delay((i++) * 750).fadeTo(750, 1);
     });
   });
 });
