@@ -71,6 +71,17 @@
         padding: 1rem 5rem;
         margin: 3rem 0;
       }
+      h1.landing {
+        margin-bottom: -5px;
+        font-family: @secondary-font;
+        font-weight: 700;
+        font-size: 4rem;
+        text-transform: uppercase;
+        @media screen and (min-width: @screen-xs-min) {
+          font-size: 8rem;
+          // margin-bottom: 0.3rem;
+        }
+      }
     }
     h1 {
       text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
@@ -360,7 +371,8 @@
     font-size: 4rem;
     text-transform: uppercase;
     @media screen and (min-width: @screen-xs-min) {
-      font-size: 8rem;
+      // font-size: 8rem;
+      margin-bottom: 0.3rem;
     }
   }
 
